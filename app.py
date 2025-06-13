@@ -158,5 +158,5 @@ def run_scheduled():
         time.sleep(60)  # Check every minute
 
 if __name__ == "__main__":
-    run_once()
-    #run_scheduled()
+    #run_once()
+    run_scheduled()
